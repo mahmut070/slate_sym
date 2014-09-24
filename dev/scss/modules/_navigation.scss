@@ -1,0 +1,150 @@
+// *************************************
+//
+// Navigation
+// -> Reusable navigation module
+//
+// *************************************
+
+.Navigation {
+  text-align: center;
+}
+
+nav{
+  background-color: white;
+}
+
+
+.volle{
+  border-top: 2px solid $c-blue;
+  border-bottom: 2px solid $c-blue;
+}
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// Module-variableName
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+.Navigation-link.is-active {
+
+}
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- List item ----- //
+
+.Navigation-listItem {
+  display: inline;
+  margin: 0 rem(15px);
+  padding: 17px;
+  font-size: 16px;
+  text-decoration: none;
+  &:first-of-type {
+    margin-left: 0;
+  }
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+// ----- Navigation link ----- //
+
+.Navigation-link {
+  text-transform: uppercase;
+  color: #000000;
+  -webkit-transition:all 0.4s ease;
+  -moz-transition:all 0.4s ease;
+  -o-transition:all 0.4s ease;
+    &:hover {
+      color: #0097ff;
+      -webkit-transition:all 0.4s ease;
+      -moz-transition:all 0.4s ease;
+      -o-transition:all 0.4s ease;
+    }
+}
+
+.Navigation-link--invertedBold {
+  color: $c-white; 
+  font-weight: bold;
+}
+
+
+
+// CSS that work on dropdown  of submenu items
+
+.Navigation-listItem--hasDropdown {
+    position: relative;
+    text-decoration: none;
+}
+
+ul.Navigation-list--dropdown {
+    display: block;
+    height: auto;
+    position: absolute;
+    width: 150px;
+    line-height: 40px;
+    z-index: 9999;
+    left: -11px;
+    margin-top: 22px;
+    background: white;
+    border: 2px solid #0097ff;
+    border-radius: 5px;
+    -webkit-box-shadow: 3px 3px 9px 0px rgba(50, 50, 50, 0.32);
+    -moz-box-shadow:    3px 3px 9px 0px rgba(50, 50, 50, 0.32);
+    box-shadow:         3px 3px 9px 0px rgba(50, 50, 50, 0.32);
+}
+
+ul.Navigation-list--dropdown li.Navigation-listItem {
+    display: block;
+    padding: 0px 2px;
+    margin: 0px auto;
+    border: 0px none;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.Navigation-list.is-hidden {
+  display: none;
+}
+
+@media all and (max-width: 1000px) { 
+  ul.Navigation-list--dropdown {
+    display: block;
+    height: auto;
+    position: static;
+    width: 100%;
+    line-height: 40px;
+    z-index: 110;
+    margin-top: 27px;
+    background: #26A6FF;
+    border: 2px solid #0097ff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.4);
+    color: white;
+  }
+
+  ul.Navigation-list--dropdown li.Navigation-listItem {
+    display: block;
+    padding: 12px 2px;
+    margin: 0px auto;
+    border: 0px none;
+    font-size: 11px;
+    font-weight: 400;
+  }
+}

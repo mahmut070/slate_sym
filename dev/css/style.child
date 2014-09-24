@@ -1,0 +1,12 @@
+/*
+Theme Name: slate-0.3.1_sym-schoonmaak
+Theme URI: https://github.com/mahmut070/slate_sym
+Description: a clean slate - sym-schoonmaak child theme
+Version: 0.3.1
+Author: Mahmut Gurbuz
+Author URI: http://www.lokaalgevonden.nl
+Tags: slate
+Template: slate-0.3.1
+*/
+
+@import url('../slate-0.3.1/style.css');

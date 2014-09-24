@@ -1,0 +1,99 @@
+// *************************************
+//
+// Base
+// -> Base-level tags (body, p, etc.)
+//
+// *************************************
+
+html {
+  font-size: $t-fontSize;
+}
+
+body {
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(209,209,209,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(209,209,209,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(209,209,209,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(209,209,209,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(209,209,209,1) 100%);
+  background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(209,209,209,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d1d1d1', GradientType=1 );
+  font-family : $t-fontFamily;
+  font-size   : 100%;
+  line-height : $t-lineHeight;
+}
+
+// -------------------------------------
+// Block Content
+// -------------------------------------
+
+p {
+  font-size: rem($t-fontSize);
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: $t-headerFontFamily;
+  font-weight: bold;
+}
+
+h1, %u-textH1 {
+  font-size: rem(40px);
+}
+
+h2, %u-textH2 {
+  font-size: rem(35px);
+}
+
+h3, %u-textH3 {
+  font-size: rem(30px);
+}
+
+h4, %u-textH4 {
+  font-size: rem(25px);
+}
+
+h5, %u-textH5 {
+  font-size: rem(20px);
+}
+
+h6, %u-textH6 {
+  font-size: rem(16px);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+// -------------------------------------
+// Inline Content
+// -------------------------------------
+
+a {
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+small {
+  font-size: 75%;
+}
+
+// -------------------------------------
+// Inline Block Content
+// -------------------------------------
+
+img {
+  max-width: 100%;
+}

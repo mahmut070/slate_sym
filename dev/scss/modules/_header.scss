@@ -1,0 +1,198 @@
+// *************************************
+//
+// Header
+// -> Main site header
+//
+// *************************************
+
+header {
+}
+
+.Header-wrapper {
+  position:relative;
+  margin-top: 30px;
+}
+
+.Header-telefoon{
+  float: right;
+  margin-top: 5px;
+}
+
+.header-imgTel{
+   margin: 0;
+   display: inline;
+   vertical-align: middle;
+   width: 35px;
+}
+
+.header-textTel{
+	 margin: 0;
+    display: inline;
+    font-size: 21px;
+    color: #3e3e3e;
+    font-weight: 200;
+    vertical-align: middle;
+    color: $c-blue;
+}
+
+.Header-email{
+	float: right;
+	margin-right: 30px;
+  margin-top: 5px;
+}
+
+.header-imgEmail{
+   margin: 0;
+   display: inline;
+   vertical-align: middle;
+   width: 35px;
+   fill: red;
+}
+
+.header-textEmail{
+     margin: 0;
+     display: inline;
+     font-size: 21px;
+     color: #3e3e3e;
+     font-weight: 200;
+     vertical-align: middle;
+     color: $c-blue;
+}
+
+
+.slider{
+  height: 302px;
+	border-bottom: 2px solid $c-blue;
+  background-image: url(../img/slider1.png);
+  background-repeat:no-repeat;
+}
+
+.box{
+  background-image: url(../img/bg-box.png);
+  background-repeat: no-repeat;
+  height: 209px;
+  margin-top:20px;
+  padding-top: 13px;
+  text-align: center;
+}
+
+.box-titel {
+  font-size: 22px;
+  font-weight: 200;
+  display: inline;
+}
+
+.box-lijn{
+  border: 0;
+  width: 80%;
+  border-top:1px dashed #aaaaaa;
+}
+
+.box-tabel{
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.td-rechts{
+  padding-left: 16px;
+  text-align: left;
+}
+
+.img-ok{
+  width: 16px;
+}
+
+.box-button{
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $c-blue;
+  border-radius: 5px;
+  width: 125px;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 10px 10px 10px;
+  -webkit-transition:all 0.4s ease-in-out;
+  -moz-transition:all 0.4s ease-in-out;
+  -o-transition:all 0.4s ease-in-out;
+    &:hover {
+      background-color: #51b8ff;
+      -webkit-transition:all 0.4s ease-in-out;
+      -moz-transition:all 0.4s ease-in-out;
+      -o-transition:all 0.4s ease-in-out;
+    }
+}
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// -variable
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// .Module--modifierName
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+// .is-module-state
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- Contact bar ----- //
+
+.Header-contact {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: rgba($c-black,0.5);
+}
+
+// ----- Contact bar ----- //
+
+.Header-logo {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: rgba($c-black,0.25);
+}
+
+// ----- Nav bar ----- //
+
+.Header-nav {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: $c-blue;
+}
+
+// ----- Carousel ----- //
+
+.Header-carousel {
+  @extend .u-gridRow;
+  padding-bottom : ($l-whiteSpace * 4);
+  padding-top    : ($l-whiteSpace * 4);
+}
+
+
+@media all and (max-width: 1040px) {
+  .logo-header{
+    text-align: center;
+  }
+  .slider{
+    display: none;
+  }
+}

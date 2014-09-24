@@ -1,0 +1,71 @@
+.Footer {
+	background: white;
+	margin-top: 50px;
+	padding-bottom: 35px;
+	padding-top: 35px;
+	border-top:2px solid $c-blue;
+}
+
+.footer-logo{
+	width: 138px;
+	padding-top: 23px;
+}
+
+.footer-link{
+	color: white;
+}
+
+.Socket{
+	background: #0097ff;
+	color: white;
+}
+
+// RESPONSIVE FOOTER
+.Footer-inner .widget {
+	@include span-columns(4);
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
+}
+
+.Footer-inner {
+}
+
+//style the widgets
+.Footer-inner .widget {
+
+}
+
+.widgettitle{
+	font-size: 16px;
+}
+
+.footer-druppel{
+	position: relative;
+	width: 100%;
+}
+
+.footer-druppel-image{
+	position: absolute;
+	left: 47%;
+	top: -50px;
+	width: 6%;
+
+}
+
+@media all and (max-width: 600px) {
+  .footer-druppel-image{
+	position: absolute;
+	left: 43%;
+	top: -41px;
+	width: 16%;
+  }
+
+  .Footer{
+  	text-align: center;
+  }
+
+  .Socket{
+  	text-align: center;
+  }
+}
