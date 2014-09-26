@@ -8,13 +8,13 @@
 			<div class="Footer-inner u-gridRow">
 				 <div class="u-gridCol4">
 				 	<a href="/home"><img class="footer-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"/></a>
+               		<p>Email: info@symschoonmaak.nl </p>
+					<p>Tel: 030 2946819</p>
                 </div>
                 <div class="u-gridCol4">
 					<h4 class=" widgettitle">Contact</h4>
 					<p>Maarssenbroeksedijk 41<p>
 					<p>3542 DM Utrecht</p>
-					<p>Email: info@symschoonmaak.nl </p>
-					<p>Tel: 030 2946819</p>
                 </div>
                 <div class="u-gridCol4">
 				 	<?php dynamic_sidebar( 'footer-widgets' ); ?>
