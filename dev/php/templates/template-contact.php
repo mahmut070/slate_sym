@@ -16,7 +16,7 @@ Template Name: Contactpage
 					<div class="u-gridRow">					
 						<div class="adress u-gridCol4">
 							<div class="adress-info">
-								<p>sym-schoonmaak</p>
+								<p>Sym-schoonmaak</p>
 								<p>Maarssenbroeksedijk 41</p>
 								<p>3542 DM Utrecht</p>
 								<p>Email: info@symschoonmaak.nl</p>

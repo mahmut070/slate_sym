@@ -28,5 +28,6 @@ if(is_admin() && !$initialized){
 	  add_option('slate_initialized', true);
 }
 
+include_once ('includes/antispam.php');
 
 ?>

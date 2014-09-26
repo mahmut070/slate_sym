@@ -1,9 +1,9 @@
 	<div class="Footer">
 		<div class="u-gridContainer">
 
-			<!---<div class="footer-druppel">
+			<div class="footer-druppel">
 					<a id="backToTop"  href="#"><img class="footer-druppel-image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/druppel.png"/></a>
-			</div>-->
+			</div>
 			<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
 			<div class="Footer-inner u-gridRow">
 				 <div class="u-gridCol4">
@@ -13,6 +13,8 @@
 					<h4 class=" widgettitle">Contact</h4>
 					<p>Maarssenbroeksedijk 41<p>
 					<p>3542 DM Utrecht</p>
+					<p>Email: info@symschoonmaak.nl </p>
+					<p>Tel: 030 2946819</p>
                 </div>
                 <div class="u-gridCol4">
 				 	<?php dynamic_sidebar( 'footer-widgets' ); ?>

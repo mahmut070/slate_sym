@@ -49,11 +49,11 @@
         <div class="u-gridContainer Header-wrapper">
             <div class="u-gridRow">
 
-                <div class="u-gridCol2 logo-header">
+                <div class="u-gridCol4 logo-header">
                         <a href="/home"><img class="header-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"/></a>
                 </div>
 
-                <div class="u-gridCol10 u-cf">
+                <div class="u-gridCol8 u-cf">
 
                     <div class="Header-telefoon">
                         <a href="tel:0302946819">
