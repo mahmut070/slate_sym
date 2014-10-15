@@ -58,6 +58,11 @@ input {
   margin-top: 30px;
 }
 
+.qr-code{
+  margin-top: 30px;
+  max-width: 35%;
+}
+
 .tabel-diensten{
 }
 
@@ -81,7 +86,6 @@ input {
   float: right;
 
 }
-
 
 @media all and (max-width: 600px) {
   .diensten-text {

@@ -19,7 +19,7 @@ Template Name: Homepage
               <tr><td><img class="img-ok" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/ok.svg"></td><td class="td-rechts">Prijsgarantie</td></tr>
           </table>
     			</div>
-    			<a href="#">
+    			<a href="/bereken-pakket">
    					<div class="box-button">
     					Berekenen
     				</div>
@@ -36,7 +36,7 @@ Template Name: Homepage
               <tr><td><img class="img-ok" src="<?php echo get_stylesheet_directory_uri();?>/img/svg/ok.svg"></td><td class="td-rechts">Prijsgarantie</td></tr>					
           </table>
     			</div>
-    			<a href="#">
+    			<a href="/bereken-per-uur">
    					<div class="box-button">
     					Berekenen
     				</div>

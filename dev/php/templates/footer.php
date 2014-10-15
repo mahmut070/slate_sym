@@ -13,6 +13,7 @@
                 </div>
                 <div class="u-gridCol4">
 					<h4 class=" widgettitle">Contact</h4>
+					<p>Sym schoonmaakbedrijf</p>
 					<p>Maarssenbroeksedijk 41<p>
 					<p>3542 DM Utrecht</p>
                 </div>
@@ -51,6 +52,7 @@
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/smooth-scroll.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.bxslider.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.bxslider.start.js"></script> 
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/ga.js"></script> 
   <script src="http://localhost:35729/livereload.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.0/html-inspector.js"></script>
   <script>HTMLInspector.inspect();</script>
