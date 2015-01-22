@@ -9,13 +9,13 @@
 				 <div class="u-gridCol4">
 				 	<a href="/home"><img class="footer-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"/></a>
                		<p>Email: info@symschoonmaak.nl </p>
-					<p>Tel: 030 2946819</p>
+					<p>Tel: 0346 24 37 99</p>
                 </div>
                 <div class="u-gridCol4">
 					<h4 class=" widgettitle">Contact</h4>
 					<p>Sym schoonmaakbedrijf</p>
-					<p>Maarssenbroeksedijk 41<p>
-					<p>3542 DM Utrecht</p>
+					<p>Floraweg 6</p>
+					<p>3608 BW Maarssen</p>
                 </div>
                 <div class="u-gridCol4">
 				 	<?php dynamic_sidebar( 'footer-widgets' ); ?>

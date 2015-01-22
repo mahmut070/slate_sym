@@ -10,7 +10,7 @@ function initialize() {
     mapTypeId: google.maps.MapTypeId.ROADMAP
   }
   map = new google.maps.Map(mapCanvas, mapOptions);
-  codeAddress('Maarssenbroeksedijk 41 3542DM Utrecht');
+  codeAddress('Floraweg 6 3608 BW Maarssen');
 }
 
 function codeAddress(address) {

@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Title -->
-    <title><?php wp_title( '|', true, 'right' ); ?><?php echo get_bloginfo( 'name' ); ?></title>
+    <title><?php wp_title( '|', true, 'right' ); ?></title>
 
     <!-- Mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -56,9 +56,9 @@
                 <div class="u-gridCol8 u-cf">
 
                     <div class="Header-telefoon">
-                        <a href="tel:0302946819">
+                        <a href="tel:0346243799">
                             <img class="header-imgTel" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/telefoon.svg"> 
-                            <h4 class="header-textTel">030 2946819</h4>
+                            <h4 class="header-textTel">0346 24 37 99</h4>
                         </a>
                     </div>
 
@@ -88,7 +88,7 @@
                                 <use xlink:href="#icon-menu2"></use>
                                 </svg>
                             </a>
-                            <a href="tel:0302946819" class="Navigation-menuToggle telefoon" id="js-navCollapse">
+                            <a href="tel:0346243799" class="Navigation-menuToggle telefoon" id="js-navCollapse">
                                 <svg class="Icon Icon--inline" viewBox="0 0 128 128">
                                 <use xlink:href="#icon-phone"></use>
                                 </svg>

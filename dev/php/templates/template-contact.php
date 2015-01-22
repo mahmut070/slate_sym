@@ -17,10 +17,10 @@ Template Name: Contactpage
 						<div class="adress u-gridCol4">
 							<div class="adress-info">
 								<p>Sym-schoonmaak</p>
-								<p>Maarssenbroeksedijk 41</p>
-								<p>3542 DM Utrecht</p>
+								<p>Floraweg 6</p>
+								<p>3608 BW Maarssen</p>
 								<p>Email: info@symschoonmaak.nl</p>
-								<p>Tel: 030 2946819</p>
+								<p>Tel: 0346 24 37 99</p>
 							</div>
 						</div>					
 						<div class="adress-map u-gridCol8">
